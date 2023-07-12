@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "liveworldgen",
+    "version": "${version}",
+  
+    "name": "Live Worldgen",
+    "description": "Tinker with Worldgen on the fly",
+    "authors": [
+      "Tslat"
+    ],
+    "contact": {
+      "homepage": "",
+      "sources": "https://github.com/Tslat/LiveWorldgen"
+    },
+  
+    "license": "MPL-2.0",
+    "icon": "",
+  
+    "environment": "*",
+    "entrypoints": {
+      "main": [
+        "net.tslat.liveworldgen.LiveWorldgen"
+      ]
+    },
+    "mixins": [
+      "liveworldgen.mixins.json"
+    ],
+    "depends": {
+      "fabricloader": ">=0.14",
+      "fabric": "*",
+      "minecraft": ">=1.20",
+      "java": ">=17"
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.tslat.liveworldgen.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "liveworldgen.refmap.json",
+  "mixins": [
+    "ChunkGeneratorMixin",
+    "ChunkMapAccessor",
+    "NoiseBasedChunkGeneratorMixin",
+    "NoiseGeneratorSettingsMixin",
+    "PlacedFeatureMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
