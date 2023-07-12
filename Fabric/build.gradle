@@ -12,8 +12,8 @@ dependencies {
         parchment("org.parchmentmc.data:parchment-${minecraft_version}:${mappings_version}@zip")
     }
 
-    implementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
-    implementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
+    modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
     compileOnly project(":Common")
 }
 
