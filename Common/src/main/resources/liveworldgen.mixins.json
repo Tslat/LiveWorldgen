@@ -6,7 +6,6 @@
   "refmap": "liveworldgen.refmap.json",
   "mixins": [
     "ChunkGeneratorMixin",
-    "ChunkMapAccessor",
     "NoiseBasedChunkGeneratorMixin",
     "NoiseGeneratorSettingsMixin",
     "PlacedFeatureMixin"
