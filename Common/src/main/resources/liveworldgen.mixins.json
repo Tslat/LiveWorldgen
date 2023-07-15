@@ -6,9 +6,11 @@
   "refmap": "liveworldgen.refmap.json",
   "mixins": [
     "ChunkGeneratorMixin",
+    "ClimateSamplerMixin",
     "NoiseBasedChunkGeneratorMixin",
     "NoiseGeneratorSettingsMixin",
-    "PlacedFeatureMixin"
+    "PlacedFeatureMixin",
+    "SurfaceSystemMixin"
   ],
   "injectors": {
     "defaultRequire": 0
